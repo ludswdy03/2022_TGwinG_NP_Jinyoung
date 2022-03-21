@@ -40,12 +40,14 @@ def letMeIntroduceMyself():
     hobby = input("취미를 입력하시오: ")
     univ = input("재학 중인 대학을 입력하시오: ")
     birth = input("생일을 입력하시오(예시: 031024): ")
-    print("제 이름은 %s입니다. 제 취미는 %s이구요. 저는 %s를 다니고 있습니다. 제 생일은 %s월 %s일 입니다." %(name, hobby, univ, birth[2:4], birth[4:]))
-    return name, hobby, univ, birth
+    intro = "제 이름은 %s입니다. 제 취미는 %s이구요. 저는 %s를 다니고 있습니다. 제 생일은 %s월 %s일 입니다." %(name, hobby, univ, birth[2:4], birth[4:])
+    print(intro)
+    return intro
 
 # 문제 9번
 def calcAI():
     num_1 = int(input("첫 번째 숫자를 입력하시오: "))
     num_2 = int(input("두 번째 숫자를 입력하시오: "))
-    print("두 수의 합은 %d 입니다." %(num_1 + num_2))
-    return num_1, num_2
+    cal = "두 수의 합은 %d 입니다." %(num_1 + num_2)
+    print(cal)
+    return cal
